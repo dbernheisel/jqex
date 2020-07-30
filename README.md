@@ -3,11 +3,14 @@
 
 ## Installation
 
-1. Install Elixir with [asdf](https://github.com/asdf-vm/asdf-elixir)
-2. Clone this repository
-3. Run `mix escript.build`
-4. Add `./bin/` to your `$PATH`
+1. Make sure Elixir 1.4+ is installed.
+2. run `mix escript.install github davydog187/jqex`
+
+Or manually:
+1. Clone this repository
+2. Run `mix escript.build`
+3. Add `./bin/` to your `$PATH`
 
 ## Example
 
-![](output.png)
+![example](output.png)
